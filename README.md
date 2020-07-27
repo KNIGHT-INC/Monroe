@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+Programming Your Own Wireless Service(WIS)
 
-You can use the [editor on GitHub](https://github.com/KNIGHT-INC/Monroe/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+-Home
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+-WIS
 
-### Markdown
+-About
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+INTRODUCTION
 
-```markdown
-Syntax highlighted code block
+Sending and receiving tect messages had become part of our daily activities.Can you imagine yourself without a mobile phone in this day and age? Would you leave home without it? And would you be wondering how those mobile applications are written , where you can send a text messages to a specific number, and you get the necessary information needed in a form of a reply or simply uploading your pictures on social media.
 
-# Header 1
-## Header 2
-### Header 3
+This Article explains the things you need to know in order to program your own wireless information service. In a validating the concept, a sample program was created using Android Operating systems and Apple's Ios and Java Communcations API. The application developed had been tested on a PC euipped with an infrared dongle that connects to an infrared enabled phone. The application is divided into two parts, the messaging library and the information service application.
 
-- Bulleted
-- List
+UNDERSTANDING THE SMS MESSAGE
 
-1. Numbered
-2. List
+Before developing the application, let us take a look at how a message is handled by the mobile phone. A short messaging service or SMS text can be up to 160 characters long. Eacxh character of the message is represented using 7 bits instead of8. 8 bitnmessages with a maxium of 140 characters are usually not viewable messages. This is normally used for ringtones or images. For Unicode text messages, which are used for Asain languages are 16 bit messages. This type of messages has a maxium length of 70 characters. Blinking SMS is also represented as a 16 bit message otherwise known as Flash SMS.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KNIGHT-INC/Monroe/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
